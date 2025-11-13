@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap");
+
+@layer utilities {
+  .font-logo {
+    font-family: "Story Script", cursive;
+  }
+}
+
+/* globals.css */
+.react-calendar-heatmap text {
+  font-size: 8px;
+}
+.react-calendar-heatmap .color-empty {
+  fill: #ebedf0;
+}
+.react-calendar-heatmap .color-scale-1 {
+  fill: #c6e48b;
+}
+.react-calendar-heatmap .color-scale-2 {
+  fill: #7bc96f;
+}
+.react-calendar-heatmap .color-scale-3 {
+  fill: #239a3b;
+}
+.react-calendar-heatmap .color-scale-4 {
+  fill: #196127;
+}
